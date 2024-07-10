@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.nav_text_with_button{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    font-size: 23px;
+}
+.nav_button_container > li{
+    list-style-type: none;
+}
+.nav_button_container > li >a {
+    text-decoration: none;
+    color: black;
+    padding: 7px 13px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 18px;
+}
+/* END NAV PART */
+.banner_container_with_img_and_text{
+    background: url("./image/Hero-bg.png") no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 86vh;
+    margin-bottom: 120px;
+}
+.banner_container {
+    text-align: center;
+    width: 84%;
+    margin: 0px auto;
+}
+.banner_container > img{
+    margin-top: 20px;
+}
+.banner_container h1{
+    font-size: 35px;
+    font-weight: 900;
+}
+.banner_container > p{
+    font-size: 17px;
+    font-weight: 900;
+}
+.banner_container button{
+    margin-top: 35px;
+    padding: 14px 26px;
+    background: black;
+    color: white;
+    border: none;
+    font-size: 19px;
+    border-radius: 5px;
+
+}
+/* END BANNER PART */
+
+.Why_Web_Development_container {
+    width: 90%;
+    margin: 0px auto;
+    background: rgba(255, 153, 0, 0.192);
+    padding: 10px 10px;
+}
+.Why_Web_Development_container h1,p{
+    text-align: center;
+}
+.Why_Web_Development_container h1{
+    font-size: 33px;
+    font-weight: 900;
+    padding-top: 15px;
+}
+.Why_Web_Development_container p{
+    font-size: 16px;
+    font-weight: 900;
+}
+.cards_container{
+    margin-top: 30px;
+    padding: 10px 0px;
+}
+.card{
+    width: 90%;
+    margin: 0px auto;
+    background: #ffffffcb;
+    padding: 10px 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.card_items_flex{
+    display: flex;
+}
+.card_text_container{
+    text-align: start;
+}
