@@ -1,11 +1,10 @@
 *{
     padding: 0;
     margin: 0;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: "Azeret Mono", monospace;
 }
 p{
     color: rgb(95, 93, 93);
-    font-weight: 800;
 }
 /* comon fiture *//* comon fiture *//* comon fiture *//* comon fiture *//* comon fiture *//* comon fiture *//* comon fiture */
 
@@ -23,7 +22,7 @@ p{
 .nav_button_container > li >a {
     text-decoration: none;
     color: black;
-    padding: 7px 13px;
+    padding: 9px 13px;
     border: 1px solid black;
     border-radius: 5px;
     font-size: 18px;
@@ -43,21 +42,16 @@ p{
     width: 84%;
     margin: 0px auto;
 }
-.banner_container > img{
-    /* margin-top: 20px; */
-}
 .banner_container h1{
     font-size: 40px;
-    font-weight: 900;
+    font-weight: 600;
 }
 .banner_container > p{
     font-size: 17px;
-    font-weight: 900;
     text-align: center;
 }
 .banner_container button{
-    /* margin-top: 35px; */
-    padding: 14px 26px;
+    padding: 18px 26px;
     background: black;
     color: white;
     border: none;
@@ -79,14 +73,12 @@ p{
 }
 .Why_Web_Development_container > h1{
     text-align: center;
-    font-size: 33px;
-    font-weight: 900;
     padding-top: 15px;
+    font-size: 33px;
+    font-weight: 600;
 }
 .Why_Web_Development_container > p{
     text-align: center;
-    font-size: 16px;
-    font-weight: 600;
 }
 .cards_container{
     margin-top: 30px;
@@ -106,14 +98,19 @@ p{
 .card_text_container1 > p{
     text-align: start;
 }
+.card_text_container1>h2{
+    color: rgb(80, 79, 79);;
+}
 .card_text_container2 > h2 {
-    text-align: end; /* WHY IS NOT WORKING */
+    text-align: end; 
+    color: rgb(80, 79, 79);/* WHY IS NOT WORKING */
 }
 .card_text_container2>p{ /* solve another way */
     text-align: end;
 }
 .card_text_container3 > h2{
     text-align: start;
+    color: rgb(80, 79, 79);
 }
 .card_text_container3 >p{
     text-align: start;
@@ -127,8 +124,8 @@ p{
 .button_container > button{
     padding: 8px 20px;
     border: none;
-    border-radius: 5px;
     border: 1px solid black;
+    background: transparent;
 }
 .button_container2{
     text-align: end;
@@ -137,8 +134,8 @@ p{
   .button_container2 > button{
     padding: 8px 20px;
     border: none;
-    border-radius: 5px;
     border: 1px solid black;
+    background: transparent;
 }
 /* END MAIN PART'S FIRST SECTION */
 
@@ -164,7 +161,7 @@ p{
 }
 .My_Current_Target_container > h1{
     font-size: 33px;
-    font-weight: 900;
+    font-weight: 600;
     text-align: center;
 }
 .My_Current_Target_container > p{
@@ -206,7 +203,8 @@ p{
 .target_cards_container > div >h1{
     padding: 20px;
     font-size: 30px;
-    font-weight: 900;
+    font-weight: 500;
+    color: rgb(80, 79, 79);
 }
 .ancor_link > a{
     color: black;
@@ -222,12 +220,10 @@ p{
 .My_Next_Target_container>h1{
     text-align: center;
     font-size: 33px;
-    font-weight: 900;
+    font-weight: 600;
 
 }
 .My_Next_Target_container>p{
-    font-size: 16px;
-    font-weight: 600;
     text-align: center;
 }
 .My_Next_Target_cards_container{
@@ -253,7 +249,8 @@ p{
 }
 .Next_Target_text_container>h1{
     font-size: 30px;
-    font-weight: 900;
+    font-weight: 500;
+    color: rgb(80, 79, 79);
 }
 .Next_Target_text_container>div>a{
     color: black;
@@ -278,10 +275,10 @@ p{
 }
 .contact_container>div>h1{
     font-size: 45px;
-    font-weight: 900;
+    font-weight: 600;
 }
 .contact_container>div>p{
-    color: white;
+    color: rgb(165, 165, 165);
 }
 .input_container{
     display: flex;
@@ -298,12 +295,12 @@ p{
     border-radius: 6px;
     padding: 5px 10px;
 }
-button[type="submit"]{
+.input_container>button[type="submit"]{
     border: none;
     font-size: 20px;
     font-weight: 600;
     border-radius: 6px;
-    padding: 8px 26px;
+    padding: 12px 26px;
 }
 /* END MAIN PART'S FORTH SECTION */
 /* END MAIN PART */ /* END MAIN PART */ /* END MAIN PART */ /* END MAIN PART */ /* END MAIN PART */ /* END MAIN PART */ /* END MAIN PART */
