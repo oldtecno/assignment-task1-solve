@@ -29,7 +29,7 @@
     margin-bottom: 120px;
 }
 .banner_container {
-    text-align: center;
+    text-align: center; /* WHY IS NOT WORKING */
     width: 84%;
     margin: 0px auto;
 }
@@ -43,6 +43,7 @@
 .banner_container > p{
     font-size: 17px;
     font-weight: 900;
+    text-align: center;
 }
 .banner_container button{
     margin-top: 35px;
@@ -60,17 +61,19 @@
     width: 90%;
     margin: 0px auto;
     background: rgba(255, 153, 0, 0.192);
-    padding: 10px 10px;
+    padding-top: 20px;
+    padding-bottom: 60px;
+    padding-left:10px ;
+    padding-right:10px ;
 }
-.Why_Web_Development_container >p,h1 {
+.Why_Web_Development_container > h1{
     text-align: center;
-}
-.Why_Web_Development_container h1{
     font-size: 33px;
     font-weight: 900;
     padding-top: 15px;
 }
 .Why_Web_Development_container > p{
+    text-align: center;
     font-size: 16px;
     font-weight: 600;
 }
@@ -81,10 +84,10 @@
 .card{
     width: 90%;
     margin: 0px auto;
-    background: #ffffffcb;
+    background: #ffffff;
     padding: 10px 10px;
-    margin-top: 10px;
-    border-radius: 5px;
+    margin-top: 15px;
+    border-radius: 7px;
 }
 .card_items_flex{
     display: flex;
@@ -92,7 +95,10 @@
 .card_text_container1 > p{
     text-align: start;
 }
-.card_text_container2 > h2,p{
+.card_text_container2 > h2 , p{
+    text-align: end; /* WHY IS NOT WORKING */
+}
+.card_text_container2>p{ /* solve another way */
     text-align: end;
 }
 .card_text_container3 > h2,p{
@@ -120,3 +126,78 @@
     border-radius: 5px;
     border: 1px solid black;
 }
+/* END MAIN PART'S FIRST SECTION */
+
+.my_inspiration_container{    /* for some minites */
+    background: red;
+    height: 50vh;
+}                               /* for some minites */
+.my_inspiration_container > h1{
+    margin-top: 50px;
+    font-size: 33px;
+    font-weight: 900;
+    text-align: center;
+}
+.my_inspiration_container > p{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+}
+/* END MAIN PART'S SECOUND SECTION */
+
+.My_Current_Target_container{
+    margin-top: 150px;
+}
+.My_Current_Target_container > h1{
+    font-size: 33px;
+    font-weight: 900;
+    text-align: center;
+}
+.My_Current_Target_container > p{
+    text-align: center;
+}
+.target_cards_container{
+    width: 90%;
+    margin: 0px auto;
+    display: flex;
+    gap: 25px;
+}
+.target_card1{
+    background: rgba(255, 102, 0, 0.144);
+    border-radius: 7px;
+}
+.target_card2{
+    background: rgba(0, 68, 255, 0.123);
+    border-radius: 7px;
+}                           
+.target_card3{
+    background: rgba(255, 255, 0, 0.192);
+    border-radius: 7px;
+}
+.target_card1 > img{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+}
+.target_card2 > img{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+}
+.target_card3 > img{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+}
+.target_cards_container > div >h1{
+    padding: 20px;
+    font-size: 30px;
+    font-weight: 900;
+}
+.ancor_link > a{
+    color: black;
+    display: block;
+    padding: 15px;
+    margin-left: 10px;
+}
+/* END MAIN PART'S THIRTH SECTION */
