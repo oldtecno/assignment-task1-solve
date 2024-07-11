@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     font-family: "Azeret Mono", monospace;
+    scroll-behavior: smooth;  /* I learn it in crome */
 }
 p{
     color: rgb(95, 93, 93);
@@ -50,13 +51,14 @@ p{
     font-size: 17px;
     text-align: center;
 }
-.banner_container button{
+.banner_container a{
     padding: 18px 26px;
     background: black;
     color: white;
     border: none;
     font-size: 19px;
     border-radius: 5px;
+    text-decoration: none;
 
 }
 /* END BANNER PART */
