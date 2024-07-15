@@ -1,0 +1,105 @@
+@media screen and (max-width:576px) {
+  /* all p padding */
+  .card_text_container1 > h2, p, .card_text_container2 > h2, p, .card_text_container3 > h2, p {
+    padding: 0px 6px;
+}
+  /* all p padding */
+
+
+/* all colums */
+.target_cards_container,
+.Next_Target_card,
+.input_container,
+.footer_text_and_icons,
+.card_items_flex
+{
+  flex-direction: column;
+  gap: 20px;
+}
+/* all colums */
+  .nav_text_with_button>h2,
+  .contact_container>div>h1
+  {
+    font-size: 30px;
+  }
+  .nav_button_container > li >a {
+    padding: 6px 10px;
+}
+/* end */
+
+.banner_container_with_img_and_text{
+  height: 100vh;
+}
+  .banner_container{
+    width: 100%;
+  }
+  .banner_container>img{
+    width: 40%;
+  }
+  .banner_container h1{
+    font-size: 30px;
+  }
+  .banner_container > p{
+    font-size: normal;
+  }
+/* end */
+
+  .card_img_container>img{
+    width:68%;
+  }
+/* end */
+
+  .video_container{
+    width: 95%;
+    padding: 0px 0px;
+  }
+
+  /* end */
+  .img_container{
+    width: 100%;
+    text-align: center;
+  }
+  .Next_Target_card{
+    text-align: center;
+  }
+
+/* end */
+
+  
+  .input_container>input {
+    width:90%
+  }
+  ::placeholder{
+    font-size: 15px;
+  }
+
+/*end */
+
+.footer_text_and_icons>h3{
+  font-size:15.9px;
+}
+
+
+
+
+
+/* part 2 start */
+}
+@media screen and (max-width:806px) {
+  .input_container{
+    flex-wrap: wrap;
+  }
+}
+/* part 2 end */
+
+
+/* part 3 start */
+@media screen and (min-width:576px) and (max-width:992px) {
+  .banner_container>img{
+    width: 25%;
+  }
+  .banner_container_with_img_and_text{
+    height: 110vh;
+  }
+}
+/* part 3 end */

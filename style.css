@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     font-family: "Azeret Mono", monospace;
-    scroll-behavior: smooth;  /* I learn it in crome */
+    scroll-behavior: smooth;  /*Today I learn it in crome */
 }
 p{
     color: rgb(95, 93, 93);
@@ -282,7 +282,7 @@ p{
     align-items: center;
     background:linear-gradient(180deg,rgba(0, 0, 0, 0.795),rgba(0, 0, 0, 0.178)),url("./image/handshake.jpg") no-repeat;
     background-position: center;
-    block-size: cover;
+    background-size: cover;
     height: 400px;
     width: 90%;
     margin: 0px auto;
@@ -330,7 +330,8 @@ p{
 
 .footer_container{
     margin-top: 100px;
-    height: 65px;
+    height: 100%;
+    padding: 15px;
     background: rgba(223, 196, 196, 0.295);
     display: flex;
     align-items: center;
